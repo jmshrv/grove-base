@@ -4,7 +4,12 @@ version = "0.1.0"
 description = "GrovePI base code for designing sensor systems"
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "RPi.GPIO",
+    "smbus2",
+    "numpy",
+    "matplotlib"
+]
 
 [tool.setuptools]
 packages = ["imu", "nfc", "smbus2"]
