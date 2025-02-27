@@ -8,8 +8,22 @@ dependencies = []
 
 [tool.setuptools]
 packages = ["imu", "nfc", "smbus2"]
-py_modules = [
-    "basehat", "filters", "graphs", "grove6axis", "grovegyro", "grovelcd", 
-    "grovenfcreader", "grovenfctag", "grovepi", "grovepitest", "kbread", 
-    "led", "outputcsv", "pn532", "sensors", "showIP", "speech"
+py-modules = [
+    "basehat",
+    "filters",
+    "graphs",
+    "grove6axis",
+    "grovegyro",
+    "grovelcd",
+    "grovenfcreader",
+    "grovenfctag",
+    "grovepi",
+    "grovepitest",
+    "kbread",
+    "led",
+    "outputcsv",
+    "pn532",
+    "sensors",
+    "showIP",
+    "speech",
 ]
