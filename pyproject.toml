@@ -1,7 +1,15 @@
 [project]
 name = "grove-base"
 version = "0.1.0"
-description = "Add your description here"
+description = "GrovePI base code for designing sensor systems"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = []
+
+[tool.setuptools]
+packages = ["imu", "nfc", "smbus2"]
+py_modules = [
+    "basehat", "filters", "graphs", "grove6axis", "grovegyro", "grovelcd", 
+    "grovenfcreader", "grovenfctag", "grovepi", "grovepitest", "kbread", 
+    "led", "outputcsv", "pn532", "sensors", "showIP", "speech"
+]
